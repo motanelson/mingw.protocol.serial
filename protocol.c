@@ -206,7 +206,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     strcpy(textBuffer,":> ");
     
     textBuffer2=(char *)malloc(MAX_TEXT);
-    HWND hwnd = CreateWindowA("YellowWindow", "Janela Amarela",
+    HWND hwnd = CreateWindowA("YellowWindow", "press esc key to restart....",
                               WS_OVERLAPPEDWINDOW,
                               CW_USEDEFAULT, CW_USEDEFAULT, 800, 600,
                               NULL, NULL, hInstance, NULL);
